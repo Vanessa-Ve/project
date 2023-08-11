@@ -1,0 +1,394 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.8s;
+    scroll-behavior: smooth;
+}
+/* header{
+    width: 100%;
+    height: auto;
+
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+header .menu{
+    background-color:yellow;
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 60px;
+
+}
+header .menu .logo {
+    margin: 10px;
+}
+header .menu .logo img{
+    width: 60px;
+
+}
+header .menu ul {
+    margin: 10px;
+}
+header .menu ul li {
+    display:inline-block;
+    padding: 10px;
+    transition: 0.8s;
+    /* border-right: 1px solid #000; 
+}
+header .menu ul li a{
+    color: black;
+    font-size: 20px;
+
+}
+header .menu ul li a:hover{
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+} */
+header {
+    z-index: 100;
+}
+header .navbar-brand img {
+    width: 70px;
+}
+header .navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    padding-left: 30px;
+    color: #000;
+}
+#home{
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+       /* background: lightsalmon; */
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)),url(img/pic\ 5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#home .banner-text{
+    position: absolute;
+    top:48%;
+    left: 39%;
+transform: translate(-39%,-48%);
+}
+#home .banner-text h2{
+    font-size: 39px;
+    color: yellow;
+    padding: 10px;
+}
+/* #home .banner-text h2 span{
+    color: red;
+} */
+#home .banner-text h4{
+    color:yellow;
+font-size: 30px;
+padding: 10px;
+font-weight:bolder;
+}
+
+#home .banner-text p{
+font-size: 18px;
+color: #fff;
+padding: 10px;
+}
+
+#home .banner-text .btn{
+    display: inline-block;
+    padding: 10px;
+text-align: center;
+    color:black;
+    font-size: 18px;
+    margin: 20px;
+    /* background-color: rgba(0,0,0,0.9); */
+    background:whitesmoke;
+border-radius: 2px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#home .banner-text .btn:hover{
+    background-color: yellow;
+    color: black;
+}
+@media(max-width:960px){
+    #home .banner-text h2{
+        font-size: 38px;
+        top: 52%;
+    }
+}
+@media(max-width:936px){
+    #home .banner-text h2{
+        font-size: 34px;
+        top: 55%;
+    }
+}
+@media(max-width:837px){
+    #home .banner-text h2{
+        font-size: 32px;
+        top: 59%;
+    }
+    #home .banner-text h4{
+        font-size:  26px; 
+    }
+}
+@media(max-width:795px){
+    #home .banner-text h2{
+        font-size: 30px;
+        top: 62%;
+    }
+    #home .banner-text h4{
+        font-size:  24px; 
+    }
+}
+@media(max-width:744px){
+    #home .banner-text h2{
+        font-size: 27px;
+        top: 65%;
+    }
+    #home .banner-text h4{
+        font-size: 22px;
+    }
+}
+@media(max-width:744px){
+    #home .banner-text h2{
+        font-size: 27px;
+        top: 65%;
+    }
+    #home .banner-text h4{
+        font-size: 22px;
+    }
+}@media(max-width:744px){
+    #home .banner-text h2{
+        font-size: 24px;
+        top: 69%;
+    }
+    #home .banner-text h4{
+        font-size: 19px;
+    }
+}
+@media(max-width:645px){
+    #home .banner-text h2{
+        font-size: 24px;
+        top: 65%;
+    }
+    #home .banner-text h4{
+        font-size: 19px;
+    }
+#home{
+    height: 100vh;
+}
+#home .banner-text .btn{
+    padding: 5px;
+    margin: 8px;
+    padding-right: 6px;
+}
+}
+@media(max-width:603px){
+    #home .banner-text h2{
+        font-size: 21px;
+        top: 65%;
+    }
+        #home .banner-text h4{ 
+            font-size: 17px;
+        }
+}
+@media(max-width:603px){
+    #home .banner-text h2{
+        font-size: 19px;
+        top: 65%;
+    }
+        #home .banner-text h4{ 
+            font-size: 15px;
+        }
+        #home .banner-text .btn{
+            padding: 3px;
+            margin: 5px;
+            padding-right: 4px;
+        }
+        
+    }
+    @media(max-width:603px){
+        #home .banner-text .btn{
+            padding: 4px;
+            margin: 2px;
+            padding-right: 2px;
+        }
+    }
+    @media(max-width:485px){
+        #home .banner-text h2{
+            font-size: 17px;
+            top: 65%;
+        }
+            #home .banner-text h4{ 
+                font-size: 15px;
+            }
+        }
+
+        #product{
+            margin: 10px;
+        }
+        #product .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        #product .box {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid #000;
+            border-top: 17px solid yellow;
+            background:#ccc ;
+        }
+        #product .box h2{
+           font-size: 27px;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+    #product .box p{
+        color: #000;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+    }
+    #blog {
+        width: 100%;
+
+        margin-top: 20px;
+    }
+    #blog .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #blog .product-container .image-container img{
+        width: 200px;
+        height: 200px;
+
+    }
+    #blog .product-container .class {
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+    }
+    #blog .product-container .class h2
+    { 
+   font-size: 23px;
+   color: #ccc;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 8px;
+}
+    
+    #blog .product-container .class h4{
+        font-size: 18px;
+        color: #ccc;
+        margin: 8px;
+    
+    }
+    /* #blog .product-container .class .words{
+        width: auto;
+        height: auto;
+        border: 0.5px solid #ccc;
+        margin: 10px;
+    } */
+#blog .product-container .class p{
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+
+    /* #blog .blog-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #blog .blog-container .blog-box {
+        width: 500px;
+        max-width: 100%;
+        margin: 20px;
+        box-shadow: 2px 1px 3px rgba(0,0,0,0.5);
+        transition: 0.8s;
+        border-radius: 20px;
+        background-color: lightsalmon;
+        text-align: center;
+    }
+    #blog .blog-container .blog-box .image-container img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+    } */
+    #contact{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    #contact form{
+        width: 500px;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+    #contact form .form-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #contact  form  .form-container .input-box input,
+     #contact  form  .form-container .input-box textarea {
+        width: 230px;
+        max-width: 100%;
+        margin: 10px;
+        margin-left: 0px;
+        padding: 8px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+     }
+     #contact form  .heading h2{
+        margin: 20px;
+        text-align: center;
+        font-size: 35px;
+        letter-spacing: 2px;
+     }
+     #contact  form  .form-container .input-box h1{
+        font-size: 15px;
+     }
+     #contact  form  .form-container .input-box ::placeholder{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+     #contact  form  .form-container .input-box textarea {
+        width: 80%;
+        resize: none;
+    }
+    #contact  form .btn {
+        display: inline-block;
+        padding: 8px;
+        margin: 10px ;
+        background:black;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #contact  form .btn:hover {
+        background:brown;
+        color:black;
+        letter-spacing: 2px;
+    }

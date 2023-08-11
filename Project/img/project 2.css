@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    list-style:none ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.8s;
+    scroll-behavior: smooth;
+
+}
+header{
+    width: 100%;
+    height: auto;
+    top: 0;
+    z-index: 100;
+}
+/* header .menu{
+    width: 100%;
+   display: flex;
+  background-color: yellow;
+   height: auto;
+justify-content: space-between;
+} */
+header .menu{
+    background-color:black;
+    display: flex;
+    height: auto;
+    width: 100%;}
+
+header .menu .logo{
+margin: 10px;
+}
